@@ -1,31 +1,37 @@
 export default {
     name: 'content',
-    title: 'Content',
+    title: 'ページデータ',
     type: 'document',
     __experimental_actions: [
-        // 'create',
+        'create',
         'update',
         // 'delete',
         'publish'
       ],
     fields: [
         {
-            title: 'Hero text',
-            name: 'text',
-            type: 'simplePortableText'
-        },
+            name: 'title',
+            title: 'ページ名',
+            type: 'string'
+          },
         {
-            title: 'Hero image',
+            title: 'トプイメージ',
             name: 'image',
             type: 'image',
             options: {
                 hotspot: true
             }
-        }
+        },
+        {
+            name: 'overlayText',
+            title: 'イメージの言葉',
+            type: 'blockContent'
+          }
     ],
     preview: {
         select: {
           title: 'title',
+          media: 'image'
         }
       }
 }

@@ -1,11 +1,11 @@
 export default {
   name: 'siteSettings',
   type: 'document',
-  title: 'Site Settings',
+  title: 'サイト設定',
   __experimental_actions: [
-    // 'create',
+    'create',
     'update',
-    // 'delete',
+    'delete',
     'publish'
   ],
   fields: [

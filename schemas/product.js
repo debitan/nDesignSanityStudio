@@ -64,14 +64,14 @@ export default {
     {
       name: 'body',
       title: '商品説明',
-      type: 'localeBlockContent'
+      type: 'blockContent'
     }
   ],
 
   preview: {
     select: {
       title: 'title',
-      media: 'images[0]'
+      media: 'images.0'
     }
   }
 }
