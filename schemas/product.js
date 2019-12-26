@@ -16,7 +16,8 @@ export default {
     {
       name: 'type',
       title: 'タイプ',
-      type: 'string'
+      type: 'reference',
+      to: [{ type: 'categories' }]
     },
     {
       name: 'colours',

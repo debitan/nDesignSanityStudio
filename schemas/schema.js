@@ -7,7 +7,16 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import blockContent from './blockContent'
 import product from './product'
 import productVariant from './productVariant'
-import content from './content'
+import mainPage from './mainPage'
+import eventsPage from './eventsPage'
+import weddingsPage from './weddingsPage'
+import seasonal from './seasonal'
+import galleryPage from './galleryPage'
+import contactPage from './contactPage'
+import confirmationPage from './confirmationPage'
+import informationPage from './informationPage'
+import categories from './categories'
+import faqs from './faqs'
 import siteSettings from './siteSettings'
 
 import localeString from './locale/String'
@@ -27,7 +36,16 @@ export default createSchema({
     // The following are document types which will appear
     // in the studio.
     product,
-    content,
+    mainPage,
+    eventsPage,
+    weddingsPage,
+    seasonal,
+    galleryPage,
+    contactPage,
+    confirmationPage,
+    informationPage,
+    categories,
+    faqs,
     siteSettings,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas

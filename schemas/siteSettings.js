@@ -3,41 +3,28 @@ export default {
   type: 'document',
   title: 'サイト設定',
   __experimental_actions: [
-    'create',
+    // 'create',
     'update',
-    'delete',
+    // 'delete',
     'publish'
   ],
   fields: [
     {
       name: 'title',
       type: 'string',
-      title: 'Title'
-    },
-    {
-      name: 'hero',
-      type: 'array',
-      of: [{type: 'block'}],
-      title: 'Hero',
-      description: 'This content will appear on the hero on the index page'
-    },
-    {
-      name: 'about',
-      type: 'projectPortableText',
-      title: 'About',
-      description: 'This content will appear on the about page'
+      title: 'サイトタイトル'
     },
     {
       name: 'description',
       type: 'text',
-      title: 'Description',
-      description: 'Describe your site for search engines and social media.'
+      title: 'このサイトについての言葉',
+      description: 'SMSとSEOの為'
     },
     {
       name: 'keywords',
       type: 'array',
-      title: 'Keywords',
-      description: 'Add keywords that describes your site.',
+      title: 'キーワード',
+      description: 'SEOの為',
       of: [{type: 'string'}],
       options: {
         layout: 'tags'
