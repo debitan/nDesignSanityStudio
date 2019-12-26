@@ -2,7 +2,7 @@ import S from '@sanity/desk-tool/structure-builder'
 
 export default () =>
   S.list()
-    .title('コンテンツ')
+    .title('Content')
     .items([
         S.listItem()
             .title('Settings')
@@ -16,7 +16,7 @@ export default () =>
             .title('Pages')
             .child(
                 S.list()
-                    .title('ページデータ')
+                    .title('Page data')
                     .items([
                         S.listItem()
                             .title('Main page')
