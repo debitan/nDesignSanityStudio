@@ -18,5 +18,10 @@ export default {
       title: 'サイズ',
       type: 'string'
     },
-  ]
+  ],
+  preview: {
+    select: {
+      title: 'size',
+    }
+  }
 }

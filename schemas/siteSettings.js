@@ -3,17 +3,12 @@ export default {
   type: 'document',
   title: 'サイト設定',
   __experimental_actions: [
-    // 'create',
+    'create',
     'update',
     // 'delete',
     'publish'
   ],
   fields: [
-    {
-      name: 'title',
-      type: 'string',
-      title: 'サイトタイトル'
-    },
     {
       name: 'description',
       type: 'text',

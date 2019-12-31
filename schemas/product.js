@@ -10,7 +10,7 @@ export default {
     },
     {
       name: 'flower',
-      title: 'flower',
+      title: '花材',
       type: 'string'
     },
     {
@@ -52,7 +52,7 @@ export default {
       ]
     },
     {
-      title: 'Variants',
+      title: '項目',
       name: 'variants',
       type: 'array',
       of: [
